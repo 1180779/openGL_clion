@@ -121,116 +121,8 @@ build CMakeFiles/openGL_clion.dir/source/application.cpp.obj: CXX_COMPILER__open
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/camera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/camera.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\camera.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/cameraManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/cameraManager.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\cameraManager.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/cameraView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/cameraView.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\cameraView.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/cubeShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/cubeShape.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\cubeShape.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
 build CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/deltaTime.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\deltaTime.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/followingCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/followingCamera.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\followingCamera.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/glad.c.obj: C_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/glad.c || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\glad.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/lightBase.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/lightBase.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\lightBase.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/lightDirectional.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/lightDirectional.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\lightDirectional.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/lightManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/lightManager.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\lightManager.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/lightPoint.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/lightPoint.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\lightPoint.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/lightSource.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/lightSource.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\lightSource.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
-build CMakeFiles/openGL_clion.dir/source/lightSpotlight.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/lightSpotlight.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\lightSpotlight.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
@@ -247,102 +139,210 @@ build CMakeFiles/openGL_clion.dir/source/main.cpp.obj: CXX_COMPILER__openGL_clio
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/material.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/material.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\material.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/camera/camera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/camera.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\camera.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/movingCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/movingCamera.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\movingCamera.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/camera/cameraManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/cameraManager.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\cameraManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/objectList.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objectList.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objectList.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/camera/followingCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/followingCamera.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\followingCamera.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/objectShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objectShape.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objectShape.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/camera/movingCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/movingCamera.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\movingCamera.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/sceneManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/sceneManager.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\sceneManager.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/glad.c.obj: C_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/glad.c || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\glad.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/sceneView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/sceneView.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\sceneView.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightBase.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightBase.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightBase.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/shader.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/shader.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\shader.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightDirectional.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightDirectional.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightDirectional.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/shadersC.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/shadersC.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\shadersC.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightManager.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightManager.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/sphereShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/sphereShape.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\sphereShape.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightPoint.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightPoint.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightPoint.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/texture.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/texture.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\texture.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightSource.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightSource.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightSource.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/source/uiView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/uiView.cpp || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\source\uiView.cpp.obj.d
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlight.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightSpotlight.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightSpotlight.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/models/cubeShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/cubeShape.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\cubeShape.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/models/material.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/material.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\material.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/models/objectList.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/objectList.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\objectList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/models/objectShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/objectShape.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\objectShape.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/models/sphereShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/sphereShape.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\sphereShape.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/sceneManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/sceneManager.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\sceneManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/shader.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/shader.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\shader.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/shadersC.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/shadersC.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\shadersC.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/texture.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/texture.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\texture.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/views/cameraView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/views/cameraView.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\views\cameraView.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\views
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/views/sceneView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/views/sceneView.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\views\sceneView.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\views
+  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
+  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/views/uiView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/views/uiView.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\views\uiView.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\views
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
@@ -355,15 +355,6 @@ build CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj: CXX_COMPILER__openGL_cl
   TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_PDB = openGL_clion.pdb
 
-build CMakeFiles/openGL_clion.dir/stb/stb_vorbis.c.obj: C_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/stb/stb_vorbis.c || cmake_object_order_depends_target_openGL_clion
-  DEP_FILE = CMakeFiles\openGL_clion.dir\stb\stb_vorbis.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
-  OBJECT_DIR = CMakeFiles\openGL_clion.dir
-  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\stb
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target openGL_clion
@@ -372,7 +363,7 @@ build CMakeFiles/openGL_clion.dir/stb/stb_vorbis.c.obj: C_COMPILER__openGL_clion
 #############################################
 # Link the executable openGL_clion.exe
 
-build openGL_clion.exe: CXX_EXECUTABLE_LINKER__openGL_clion_Debug CMakeFiles/openGL_clion.dir/imGui/imgui.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_demo.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_draw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_glfw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_opengl3.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_tables.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_widgets.cpp.obj CMakeFiles/openGL_clion.dir/source/application.cpp.obj CMakeFiles/openGL_clion.dir/source/camera.cpp.obj CMakeFiles/openGL_clion.dir/source/cameraManager.cpp.obj CMakeFiles/openGL_clion.dir/source/cameraView.cpp.obj CMakeFiles/openGL_clion.dir/source/cubeShape.cpp.obj CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj CMakeFiles/openGL_clion.dir/source/followingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/glad.c.obj CMakeFiles/openGL_clion.dir/source/lightBase.cpp.obj CMakeFiles/openGL_clion.dir/source/lightDirectional.cpp.obj CMakeFiles/openGL_clion.dir/source/lightManager.cpp.obj CMakeFiles/openGL_clion.dir/source/lightPoint.cpp.obj CMakeFiles/openGL_clion.dir/source/lightSource.cpp.obj CMakeFiles/openGL_clion.dir/source/lightSpotlight.cpp.obj CMakeFiles/openGL_clion.dir/source/main.cpp.obj CMakeFiles/openGL_clion.dir/source/material.cpp.obj CMakeFiles/openGL_clion.dir/source/movingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objectList.cpp.obj CMakeFiles/openGL_clion.dir/source/objectShape.cpp.obj CMakeFiles/openGL_clion.dir/source/sceneManager.cpp.obj CMakeFiles/openGL_clion.dir/source/sceneView.cpp.obj CMakeFiles/openGL_clion.dir/source/shader.cpp.obj CMakeFiles/openGL_clion.dir/source/shadersC.cpp.obj CMakeFiles/openGL_clion.dir/source/sphereShape.cpp.obj CMakeFiles/openGL_clion.dir/source/texture.cpp.obj CMakeFiles/openGL_clion.dir/source/uiView.cpp.obj CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj CMakeFiles/openGL_clion.dir/stb/stb_vorbis.c.obj | glfw/src/libglfw3.a || glfw/src/libglfw3.a
+build openGL_clion.exe: CXX_EXECUTABLE_LINKER__openGL_clion_Debug CMakeFiles/openGL_clion.dir/imGui/imgui.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_demo.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_draw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_glfw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_opengl3.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_tables.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_widgets.cpp.obj CMakeFiles/openGL_clion.dir/source/application.cpp.obj CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj CMakeFiles/openGL_clion.dir/source/main.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/camera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/cameraManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/followingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/movingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/glad.c.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightBase.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightDirectional.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightPoint.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSource.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlight.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/cubeShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/material.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/objectList.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/objectShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/sphereShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/sceneManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/shader.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/shadersC.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/texture.cpp.obj CMakeFiles/openGL_clion.dir/source/views/cameraView.cpp.obj CMakeFiles/openGL_clion.dir/source/views/sceneView.cpp.obj CMakeFiles/openGL_clion.dir/source/views/uiView.cpp.obj CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj | glfw/src/libglfw3.a || glfw/src/libglfw3.a
   FLAGS = -g
   LINK_FLAGS = -Wl,--subsystem,console
   LINK_LIBRARIES = -lopengl32  -lgdi32  glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

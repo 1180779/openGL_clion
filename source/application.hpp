@@ -9,7 +9,7 @@
 #include "window.hpp"
 #include "deltaTime.hpp"
 
-#include "sceneView.hpp"
+#include "views/sceneView.hpp"
 
 class view;
 class sceneView;

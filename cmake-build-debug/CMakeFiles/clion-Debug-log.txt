@@ -21,6 +21,6 @@
 -- Looking for xinput.h - found
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Documentation generation requires Doxygen 1.9.8 or later
--- Configuring done (9.0s)
--- Generating done (0.1s)
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
 -- Build files have been written to: C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug
