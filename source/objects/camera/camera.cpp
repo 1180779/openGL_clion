@@ -25,6 +25,11 @@ void cameraBase::setForShader(
 {
     sh.use();
     sh.set3f("viewPos", pos.x, pos.y, pos.z);
-    sh.setMatrix4fv(nameProj, glm::perspective(glm::radians(fov), 800.0f / 600.0f, 0.1f, 100.0f));
+    if(ortho) {
+        sh.setMatrix4fv(nameProj, glm::ortho(-1.5f, 1.5f, -1.5f, 1.5f, 0.0f, 100.0f));
+    }
+    else {
+        sh.setMatrix4fv(nameProj, glm::perspective(glm::radians(fov), 800.0f / 600.0f, 0.1f, 100.0f));
+    }
     sh.setMatrix4fv(nameView, glm::lookAt(pos, pos + front, up));
 }

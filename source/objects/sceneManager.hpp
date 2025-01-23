@@ -15,7 +15,7 @@
 class sceneManager 
 {
 public:
-    sceneManager(window& win) : cameraMan(win) { }
+    explicit sceneManager(window& win) : cameraMan(win) { }
 
     void addObjects();
     void update(float dt);

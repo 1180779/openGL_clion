@@ -8,6 +8,7 @@
 
 #include "window.hpp"
 #include "deltaTime.hpp"
+#include "keyBinds.hpp"
 
 #include "views/sceneView.hpp"
 
@@ -42,11 +43,11 @@ public:
 
     deltaTime deltaTime;
     window window;
+    keyBinds keys;
 
 private:
 
     /* private variables */
-
     std::shared_ptr<::view> m_currentView;
     views m_views;
     view m_activeView = view::scene;

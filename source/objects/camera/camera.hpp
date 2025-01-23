@@ -10,13 +10,14 @@
 
 #include "../../window.hpp"
 #include "../../interfaces/IClonable.hpp"
+#include "../../keyBinds.hpp"
 
 class cameraBase : IClonable<cameraBase>
 {
 public:
-    cameraBase() { }
+    cameraBase() = default;
 
-    std::unique_ptr<cameraBase> clone() const override
+    [[nodiscard]] std::unique_ptr<cameraBase> clone() const override
         { return std::make_unique<cameraBase>(*this); }
 
     /* set mouse movement to modify this cameras yaw and pitch */
@@ -25,10 +26,10 @@ public:
     /* update pos */
     virtual void update(float dt) { }
 
-    inline glm::vec3 getPos() const { return pos; }
+    [[nodiscard]] inline glm::vec3 getPos() const { return pos; }
 
     /* process input */
-    virtual void processInput(GLFWwindow* window, float dt) { }
+    virtual void processInput(GLFWwindow* window, const keyBinds& keys, float dt) { }
 
     /* set 4f matrix with name in the shader */
     void setForShader(const shader& sh, 
@@ -45,6 +46,8 @@ public:
     float fov = 45.0f;
     float fovMax = 45.0f;
     float fovMin = 1.0f;
+
+    bool ortho = false;
 
     glm::vec3 pos = glm::vec3(0.0f, 0.0f, 3.0f);
 

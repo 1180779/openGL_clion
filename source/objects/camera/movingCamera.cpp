@@ -1,6 +1,8 @@
 
 #include "movingCamera.hpp"
 
+#include "../../keyBinds.hpp"
+
 void movingCamera::setCurrent(window& window)
 {
     cameraBase::setCurrent(window);
@@ -8,27 +10,27 @@ void movingCamera::setCurrent(window& window)
     glfwSetScrollCallback(window.handle, scrollCallback);
 }
 
-void movingCamera::processInput(GLFWwindow* window, float dt)
+void movingCamera::processInput(GLFWwindow* window, const keyBinds& keys, float dt)
 {
     float speed = this->speed * dt;
-    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
+    if (glfwGetKey(window, keys.forward) == GLFW_PRESS) {
         pos += speed * front;
     }
-    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
+    if (glfwGetKey(window, keys.backward) == GLFW_PRESS) {
         pos -= speed * front;
     }
 
-    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
+    if (glfwGetKey(window, keys.right) == GLFW_PRESS) {
         pos += speed * glm::normalize(glm::cross(front, up));
     }
-    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
+    if (glfwGetKey(window, keys.left) == GLFW_PRESS) {
         pos -= speed * glm::normalize(glm::cross(front, up));
     }
 
-    if (glfwGetKey(window, GLFW_KEY_Z) == GLFW_PRESS) {
+    if (glfwGetKey(window, keys.up) == GLFW_PRESS) {
         pos += speed * up;
     }
-    if (glfwGetKey(window, GLFW_KEY_X) == GLFW_PRESS) {
+    if (glfwGetKey(window, keys.down) == GLFW_PRESS) {
         pos -= speed * up;
     }
 }
@@ -43,7 +45,7 @@ void movingCamera::mouseCallback(GLFWwindow* window, double xpos, double ypos)
     if (!currentCamera)
         return;
 
-    const float sensitivity = 0.1f;
+    constexpr float sensitivity = 0.1f;
     xoffset *= sensitivity;
     yoffset *= sensitivity;
 
@@ -56,9 +58,12 @@ void movingCamera::mouseCallback(GLFWwindow* window, double xpos, double ypos)
     if (currentCamera->pitch < -89.0f)
         currentCamera->pitch = -89.0f;
 
-    currentCamera->direction.x = cos(glm::radians(currentCamera->yaw)) * cos(glm::radians(currentCamera->pitch));
-    currentCamera->direction.y = sin(glm::radians(currentCamera->pitch));
-    currentCamera->direction.z = sin(glm::radians(currentCamera->yaw)) * cos(glm::radians(currentCamera->pitch));
+    currentCamera->direction.x = static_cast<float>(
+        cos(glm::radians(currentCamera->yaw)) * cos(glm::radians(currentCamera->pitch)));
+    currentCamera->direction.y = static_cast<float>(
+        sin(glm::radians(currentCamera->pitch)));
+    currentCamera->direction.z = static_cast<float>(
+        sin(glm::radians(currentCamera->yaw)) * cos(glm::radians(currentCamera->pitch)));
     currentCamera->front = glm::normalize(currentCamera->direction);
 }
 
@@ -66,7 +71,7 @@ void movingCamera::scrollCallback(GLFWwindow* window, double xoffset, double yof
 {
     if (!currentCamera)
         return;
-    currentCamera->fov -= (float)yoffset;
+    currentCamera->fov -= static_cast<float>(yoffset);
     if (currentCamera->fov < currentCamera->fovMin)
         currentCamera->fov = currentCamera->fovMin;
     if (currentCamera->fov > currentCamera->fovMax)

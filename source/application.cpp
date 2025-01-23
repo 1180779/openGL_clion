@@ -51,7 +51,7 @@ void application::run()
 {
     // Create window with graphics context
     window.handle = glfwCreateWindow(window.width, window.height, window.name.c_str(), nullptr, nullptr);
-    if (window.handle == NULL) {
+    if (window.handle == nullptr) {
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
         exit(-1);

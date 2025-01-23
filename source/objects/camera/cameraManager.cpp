@@ -3,8 +3,8 @@
 
 void cameraManager::update(float dt)
 {
-    for (int i = 0; i < m_cameras.size(); ++i)
-        m_cameras[i]->update(dt);
+    for (const auto & m_camera : m_cameras)
+        m_camera->update(dt);
 }
 
 void cameraManager::prevCamera()

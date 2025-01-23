@@ -8,6 +8,8 @@ template <typename BaseClassT>
 class IClonable 
 {
 public:
+    virtual ~IClonable() = default;
+
     virtual std::unique_ptr<BaseClassT> clone() const = 0;
 };
 

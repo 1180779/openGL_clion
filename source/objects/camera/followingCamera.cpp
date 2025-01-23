@@ -4,8 +4,7 @@
 void followingCamera::update(float dt)
 {
     pos = obj.pos + relPos;
-
-    glm::vec3 objDir = glm::normalize(obj.pos - pos);
+    glm::vec3 objDir = glm::normalize(-relPos);
 
     direction = objDir;
 

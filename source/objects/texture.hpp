@@ -11,13 +11,13 @@
 class texture 
 {
 public:
-    int width() { return m_width; }
-    int height() { return m_height; }
-    int nrChanngels() { return m_nrChannels; }
+    [[nodiscard]] int width() const { return m_width; }
+    [[nodiscard]] int height() const { return m_height; }
+    [[nodiscard]] int nrChanngels() const { return m_nrChannels; }
 
     void use(int i = 0);
 
-    texture(std::string source, GLenum format = GL_RGB);
+    explicit texture(std::string source, GLenum format = GL_RGB);
 
 private:
     int m_width;

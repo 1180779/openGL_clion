@@ -7,12 +7,12 @@
 
 struct deltaTime
 {
-    deltaTime() {}
+    deltaTime() = default;
     float currFrame = 0.0f;
     float lastFrame = 0.0f;
     float dt = 0.0f;
 
-    inline float operator()() { return dt; }
+    inline float operator()() const { return dt; }
     void measure();
 };
 

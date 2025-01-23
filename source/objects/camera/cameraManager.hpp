@@ -8,7 +8,7 @@
 class cameraManager 
 {
 public:
-    cameraManager(window& window) : m_window(window) { }
+    explicit cameraManager(window& window) : m_window(window) { }
 
     void update(float dt);
 
@@ -16,9 +16,9 @@ public:
     void prevCamera();
     void nextCamera();
 
-    inline const cameraBase& getCamera() const { return *m_cameras[m_curr].get(); }
+    [[nodiscard]] inline const cameraBase& getCamera() const { return *m_cameras[m_curr].get(); }
     inline cameraBase& getCamera() { return *m_cameras[m_curr].get(); }
-    inline int getIndex() { return m_curr; }
+    [[nodiscard]] inline int getIndex() const { return m_curr; }
 
 
     void addCamera(const cameraBase& cam);

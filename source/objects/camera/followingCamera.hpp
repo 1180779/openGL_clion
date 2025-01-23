@@ -11,9 +11,10 @@
 class followingCamera : public cameraBase 
 {
     public:
-    followingCamera(objectShape& obj) : obj(obj) { }
+    explicit followingCamera(objectShape& obj) : obj(obj) { }
+    ~followingCamera() override = default;
 
-    std::unique_ptr<cameraBase> clone() const override
+    [[nodiscard]] std::unique_ptr<cameraBase> clone() const override
         { return std::make_unique<followingCamera>(*this); }
 
     void update(float dt) override;

@@ -2,6 +2,7 @@
 #include "sceneManager.hpp"
 #include "camera/movingCamera.hpp"
 #include "camera/followingCamera.hpp"
+#include "camera/followingRotatableCamera.hpp"
 
 #include "models/sphereShape.hpp"
 
@@ -22,11 +23,11 @@ void sceneManager::addObjects()
     };
 
     float angle = 50.f;
-    for (int i = 0; i < 10; ++i) {
+    for (auto cubePosition : cubePositions) {
         angle += 50.f;
         objectShape* obj = new cubeShape();
         obj->material = material::copper;
-        obj->pos = cubePositions[i];
+        obj->pos = cubePosition;
         list.addObject(obj);
     }
 
@@ -63,6 +64,10 @@ void sceneManager::addObjects()
     followingCamera fc(*list.m_objs[2]);
     fc.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
     cameraMan.addCamera(fc);
+
+    followingRotatableCamera frc(*list.m_objs[4]);
+    frc.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
+    cameraMan.addCamera(frc);
 
     cameraMan.nextCamera();
 }

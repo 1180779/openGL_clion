@@ -9,14 +9,14 @@
 class uiView : public subView<sceneView>
 {
 public:
-    uiView(sceneView& parent) : subView(parent) { }
+    explicit uiView(sceneView& parent) : subView(parent) { }
     void handleInput() override;
     void onEnter() override;
     void update(float dt) override { }
     void ui() override;
     void render() const override { }
     void onExit() override { }
-    ~uiView() override { }
+    ~uiView() override = default;
 };
 
 #endif

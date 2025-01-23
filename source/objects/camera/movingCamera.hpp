@@ -7,11 +7,11 @@
 
 class movingCamera : public cameraBase 
 {
-    std::unique_ptr<cameraBase> clone() const override
+    [[nodiscard]] std::unique_ptr<cameraBase> clone() const override
         { return std::make_unique<movingCamera>(*this); }
 
     void setCurrent(window& window) override;
-    void processInput(GLFWwindow* window, float dt) override;
+    void processInput(GLFWwindow* window, const keyBinds& keys, float dt) override;
 
     static void mouseCallback(GLFWwindow* window, double xpos, double ypos);
     static void scrollCallback(GLFWwindow* window, double xoffset, double yoffset);

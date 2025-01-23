@@ -28,5 +28,12 @@ void uiView::onEnter()
 
 void uiView::ui()
 {
-
+    ImGui::SetNextWindowSize(ImVec2(300, 120));
+    ImGui::Begin("Settings", nullptr,
+        ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse);
+    ImGui::Checkbox("day",
+        &m_parent.scene.lightMan.day);
+    ImGui::Checkbox("ortho (per camera)",
+        &m_parent.scene.cameraMan.getCamera().ortho);
+    ImGui::End();
 }

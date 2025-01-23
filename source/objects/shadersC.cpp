@@ -280,6 +280,10 @@ uniform LightDirectional lightD[LIGHTD_COUNT];
 uniform LightSpotlight lightS[LIGHTS_COUNT];
 uniform LightPoint lightP[LIGHTP_COUNT];
 
+uniform int lightDCount;
+uniform int lightSCount;
+uniform int lightPCount;
+
 uniform vec3 viewPos;
 
 out vec4 FragColor;
@@ -340,15 +344,15 @@ void main()
 
 
 	vec3 res = vec3(0.0f, 0.0f, 0.0f);
-	for(int i = 0; i < LIGHTD_COUNT; ++i) 
+	for(int i = 0; i < lightDCount; ++i)
 	{
 		res += lightdirectionalCalculate(lightD[i], N, V);
 	}
-	for(int i = 0; i < LIGHTS_COUNT; ++i) 
+	for(int i = 0; i < lightSCount; ++i)
 	{
 		res += spotlightCalculate(lightS[i], N, V);
 	}
-	for(int i = 0; i < LIGHTP_COUNT; ++i) 
+	for(int i = 0; i < lightPCount; ++i)
 	{
 		res += pointlightCalculate(lightP[i], N, V);
 	}

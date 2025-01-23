@@ -15,14 +15,14 @@ class application;
 class sceneView : public view
 {
 public:
-    sceneView(application& app);
+    explicit sceneView(application& app);
     void onEnter() override;
     void handleInput() override;
     void ui() override;
     void update(float dt) override;
     void render() const override;
     void onExit() override;
-    ~sceneView() override;
+    ~sceneView() override = default;
 
     enum class subView
     {

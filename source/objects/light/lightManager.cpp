@@ -20,36 +20,42 @@ void lightManager::addDirectionalLight(const lightDirectional& light)
 
 void lightManager::setForShader(const shader& sh) const
 {
-    for(int i = 0; i < m_directionalLights.size(); ++i) 
-    {
-        m_directionalLights[i].setForShader(sh, "lightD[" + std::to_string(i) + ']');
+
+    if(day) {
+        sh.set1i("lightDCount",
+            static_cast<int>(m_directionalLights.size()));
+        for(int i = 0; i < m_directionalLights.size(); ++i) {
+            m_directionalLights[i].setForShader(sh, "lightD[" + std::to_string(i) + ']');
+        }
+    }
+    else {
+        sh.set1i("lightDCount", 0);
     }
 
-    for (int i = 0; i < m_pointLights.size(); ++i)
-    {
-        m_pointLights[i].setForShader(sh, "lightP[" + std::to_string(i) + ']');
-    }
-
-    for (int i = 0; i < m_spotlights.size(); ++i)
-    {
+    sh.set1i("lightSCount",
+        static_cast<int>(m_spotlights.size()));
+    for (int i = 0; i < m_spotlights.size(); ++i) {
         m_spotlights[i].setForShader(sh, "lightS[" + std::to_string(i) + ']');
+    }
+
+    sh.set1i("lightPCount",
+        static_cast<int>(m_pointLights.size()));
+    for (int i = 0; i < m_pointLights.size(); ++i) {
+        m_pointLights[i].setForShader(sh, "lightP[" + std::to_string(i) + ']');
     }
 }
 
 void lightManager::render(const cameraBase& cam) const
 {
-    for (int i = 0; i < m_directionalLights.size(); ++i)
-    {
-        m_directionalLights[i].render(cam);
+    for (const auto & directionalLight : m_directionalLights) {
+        directionalLight.render(cam);
     }
 
-    for (int i = 0; i < m_pointLights.size(); ++i)
-    {
-        m_pointLights[i].render(cam);
+    for (const auto & pointLight : m_pointLights) {
+        pointLight.render(cam);
     }
 
-    for (int i = 0; i < m_spotlights.size(); ++i)
-    {
-        m_spotlights[i].render(cam);
+    for (const auto & spotlight : m_spotlights) {
+        spotlight.render(cam);
     }
 }

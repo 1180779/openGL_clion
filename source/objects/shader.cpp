@@ -5,8 +5,6 @@
 // loading shaders from files
 #include <string>
 #include <fstream>
-#include <streambuf>
-#include <sstream>
 
 GLuint compileShader(const char* source, GLenum shaderType);
 GLuint linkProgram(GLuint vertexShader, GLuint fragmentShader, GLuint geometryShader = -1);
@@ -44,7 +42,8 @@ void shader::use() const
 
 void shader::setb(const std::string& name, bool b) const
 {
-    glUniform1i(glGetUniformLocation(m_program, name.c_str()), (int)b);
+    glUniform1i(glGetUniformLocation(m_program, name.c_str()),
+        static_cast<int>(b));
 }
 
 void shader::set1i(const std::string& name, int v) const
@@ -61,7 +60,7 @@ void shader::set3f(const std::string& name, float v0, float v1, float v2) const
     glUniform3f(glGetUniformLocation(m_program, name.c_str()), v0, v1, v2);
 }
 
-void shader::set3f(const std::string& name, glm::vec3 v) const
+void shader::set3f(const std::string& name, const glm::vec3& v) const
 {
     glUniform3f(glGetUniformLocation(m_program, name.c_str()), v.x, v.y, v.z);
 }

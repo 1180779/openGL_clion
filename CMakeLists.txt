@@ -21,7 +21,9 @@ link_directories(Libraries/lib)
 include_directories(openGL_clion PRIVATE Libraries/include)
 #include_directories(openGL_clion PRIVATE imGui)
 
-add_executable(openGL_clion ${SOURCE}) #${IMGUI} ${SPHERE})
+add_executable(openGL_clion ${SOURCE}
+        source/objects/camera/followingRotatableCamera.cpp
+        source/objects/camera/followingRotatableCamera.hpp) #${IMGUI} ${SPHERE})
 set_target_properties(openGL_clion PROPERTIES LINKER_LANGUAGE CXX LINK_FLAGS "-Wl,--subsystem,console")
 
 target_link_libraries(openGL_clion opengl32 gdi32 glfw)
