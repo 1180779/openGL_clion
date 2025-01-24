@@ -8,16 +8,19 @@
 class lightBase 
 {
 public:
-    lightBase(glm::vec3 ambient = glm::vec3(0.2f, 0.2f, 0.2f),
-        glm::vec3 diffuse = glm::vec3(1.0f, 1.0f, 1.0f), 
-        glm::vec3 specular = glm::vec3(1.0f, 1.0f, 1.0f));
-    
+    explicit lightBase(glm::vec3 ambient = glm::vec3(0.2f, 0.2f, 0.2f),
+              glm::vec3 diffuse = glm::vec3(1.0f, 1.0f, 1.0f),
+              glm::vec3 specular = glm::vec3(1.0f, 1.0f, 1.0f));
+    virtual ~lightBase() = default;
+
+
+    virtual void update() { }
     virtual void setForShader(
         const shader& sh, 
         const std::string& structShName) const;
 
     /* implement down in hierarchy */
-    virtual void render(const cameraBase& cam) const { } 
+    virtual void render(const cameraBase& cam) const { }
 
     glm::vec3 m_ambient;
     glm::vec3 m_diffuse;

@@ -1,4 +1,5 @@
 
+#include <cmath>
 #include <glm/gtc/matrix_transform.hpp>
 #include "objectList.hpp"
 #include "../light/lightManager.hpp"
@@ -42,17 +43,18 @@ void objectList::update(float dt)
     t = glm::rotate(t, glm::radians(50.0f * dt), glm::vec3(1.0f, 0.0f, 0.0f));
     glm::vec3 res = t * glm::vec4(m_objs[2]->pos, 1.0f);
     m_objs[2]->pos = res;
+    m_objs[2]->roll = std::remainder(m_objs[2]->roll + 180.0f * dt, 360.0f);
 }
 
 void objectList::render(
     const cameraBase& cam, 
     const lightManager& lightMan, 
-    const std::string modelName) const
+    const std::string& modelName) const
 {
     cam.setForShader(m_sh);
     lightMan.setForShader(m_sh);
-    for (int i = 0; i < m_objs.size(); ++i) {
-        m_sh.setMatrix4fv(modelName, m_trans * m_objs[i]->model());
-        m_objs[i]->render(m_sh);
+    for (const auto obj : m_objs) {
+        m_sh.setMatrix4fv(modelName, m_trans * obj->model());
+        obj->render(m_sh);
     }
 }

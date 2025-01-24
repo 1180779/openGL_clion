@@ -16,14 +16,14 @@
 class objectList 
 {
 public:
-    objectList(shader& sh);
-    ~objectList();
+    explicit objectList(shader& sh);
+    virtual ~objectList();
 
     objectList& addObject(objectShape* obj);
 
     void reset() { m_trans = glm::mat4(1.0f); }
     virtual objectList& translate(const glm::vec3& v);
-    virtual objectList& rotate(const float angle, const glm::vec3& v);
+    virtual objectList& rotate(float angle, const glm::vec3& v);
     virtual objectList& scale(const glm::vec3& v);
 
     void update(float dt);
@@ -31,7 +31,7 @@ public:
     void render(
         const cameraBase& cam, 
         const lightManager& lightMan, 
-        const std::string name = "model") const;
+        const std::string& name = "model") const;
 
     shader& m_sh;
     std::vector<objectShape*> m_objs;

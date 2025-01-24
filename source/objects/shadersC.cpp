@@ -22,7 +22,8 @@ void main()
 {
     gl_Position = projection * view * model * vec4(aPos, 1.0);
     P = vec3(model * vec4(aPos, 1.0));
-    normal = aNormal;
+	//normal = vec4(aNormal, 0.0f).xyz;
+    normal = normalize(model * vec4(aNormal, 0.0f)).xyz;
 } 
 )";
 

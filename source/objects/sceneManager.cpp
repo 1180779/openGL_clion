@@ -74,8 +74,8 @@ void sceneManager::addObjects()
 
 void sceneManager::update(float dt)
 {
-    cameraMan.update(dt);
     list.update(dt);
+    cameraMan.update(dt);
 }
 
 void sceneManager::render() const

@@ -7,7 +7,7 @@
 class lightDirectional : public lightBase 
 {
 public:
-    lightDirectional(glm::vec3 color = glm::vec3(1.0f, 1.0f, 1.0f)) 
+    explicit lightDirectional(glm::vec3 color = glm::vec3(1.0f, 1.0f, 1.0f))
         : lightBase(color, color, color) { }
 
     glm::vec3 m_direction = glm::normalize(glm::vec3(-0.2f, -0.2f, -0.2f));

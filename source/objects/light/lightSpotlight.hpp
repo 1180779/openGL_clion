@@ -7,7 +7,7 @@
 class lightSpotlight : public lightSource 
 {
 public:
-    lightSpotlight() { }
+    lightSpotlight() = default;
 
     glm::vec3 m_direction = glm::normalize(glm::vec3(0.0f, 0.0f, -1.0f));
     float m_cutoff = 12.5f;
