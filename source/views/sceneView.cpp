@@ -75,12 +75,18 @@ void sceneView::update(float dt)
 
 void sceneView::render() const
 {
+    if (scene.lightMan.fog) {
+        const auto& col = scene.lightMan.fogColor;
+        glClearColor(col.x, col.y, col.z, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
+    }
     scene.render();
 }
 
 void sceneView::onExit()
 {
-    /* remove ui callbacks */
+    if(currentSubView) currentSubView->onExit();
+    /* add back ui callbacks */
     glfwSetCursorPosCallback(app.window.handle,  ImGui_ImplGlfw_CursorPosCallback);
     glfwSetScrollCallback(app.window.handle, ImGui_ImplGlfw_ScrollCallback);
 }

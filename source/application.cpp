@@ -110,7 +110,7 @@ void application::run()
         ImGui::NewFrame();
         m_currentView->ui();
 
-        /* clear etc */
+        /* clear etc. */
         ImGui::Render();
         glfwGetFramebufferSize(window.handle, &window.width, &window.height);
         glViewport(0, 0, window.width, window.height);

@@ -20,6 +20,10 @@ public:
     void setForShader(const shader& sh) const;
     void render(const cameraBase& cam) const;
 
+    bool fog = true;
+    glm::vec3 fogColor = glm::vec3(0.5f, 0.5f, 0.5f);
+    float fogDensity = 0.10f;
+
     bool day = true;
     std::vector<lightPoint> m_pointLights;
     std::vector<lightSpotlight> m_spotlights;

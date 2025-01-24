@@ -35,5 +35,8 @@ void uiView::ui()
         &m_parent.scene.lightMan.day);
     ImGui::Checkbox("ortho (per camera)",
         &m_parent.scene.cameraMan.getCamera().ortho);
+    ImGui::Checkbox("fog",
+        &m_parent.scene.lightMan.fog);
+    ImGui::SliderFloat("fog density", &m_parent.scene.lightMan.fogDensity, 0.0f, 0.4f);
     ImGui::End();
 }

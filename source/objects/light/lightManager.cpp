@@ -20,6 +20,8 @@ void lightManager::addDirectionalLight(const lightDirectional& light)
 
 void lightManager::setForShader(const shader& sh) const
 {
+    sh.set1f("fogDensity", fog ? fogDensity : 0.0f);
+    sh.set3f("fogColor", fogColor);
 
     if(day) {
         sh.set1i("lightDCount",
