@@ -18,6 +18,7 @@ public:
     void addDirectionalLight(const lightDirectional& light);
 
     void setForShader(const shader& sh) const;
+    void update(float dt);
     void render(const cameraBase& cam) const;
 
     bool fog = true;
@@ -25,9 +26,9 @@ public:
     float fogDensity = 0.10f;
 
     bool day = true;
-    std::vector<lightPoint> m_pointLights;
-    std::vector<lightSpotlight> m_spotlights;
-    std::vector<lightDirectional> m_directionalLights;
+    std::vector<std::unique_ptr<lightPoint>> m_pointLights;
+    std::vector<std::unique_ptr<lightSpotlight>> m_spotlights;
+    std::vector<std::unique_ptr<lightDirectional>> m_directionalLights;
 };
 
 #endif

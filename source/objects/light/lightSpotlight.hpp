@@ -4,10 +4,13 @@
 
 #include "lightSource.hpp"
 
-class lightSpotlight : public lightSource 
+class lightSpotlight : public lightSource, public IClonable<lightSpotlight>
 {
 public:
     lightSpotlight() = default;
+
+    [[nodiscard]] std::unique_ptr<lightSpotlight> clone() const override
+        { return std::make_unique<lightSpotlight>(*this); }
 
     glm::vec3 m_direction = glm::normalize(glm::vec3(0.0f, 0.0f, -1.0f));
     float m_cutoff = 12.5f;

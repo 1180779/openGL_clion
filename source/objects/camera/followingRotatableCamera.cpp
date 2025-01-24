@@ -11,13 +11,7 @@ void followingRotatableCamera::update(float dt)
 
     direction = objDir;
 
-    glm::mat4 t = glm::mat4(1.0f);
-    t = glm::rotate(t, glm::radians(obj.pitch), glm::vec3(1.0f, 0.0f, 0.0f));
-    t = glm::rotate(t, glm::radians(obj.yaw), glm::vec3(0.0f, 1.0f, 0.0f));
-    t = glm::rotate(t, glm::radians(obj.roll), glm::vec3(0.0f, 0.0f, 1.0f));
-
     front = glm::normalize(objDir);
-    up = t * glm::vec4(up, 1.0f);
 }
 
 void followingRotatableCamera::setCurrent(window& window)

@@ -4,6 +4,8 @@
 #include "camera/followingCamera.hpp"
 #include "camera/followingRotatableCamera.hpp"
 
+#include "light/lightSpotlightFollowing.hpp"
+
 #include "models/sphereShape.hpp"
 
 void sceneManager::addObjects()
@@ -54,6 +56,11 @@ void sceneManager::addObjects()
     pointLight.setPos(glm::vec3(5.0f, 5.0f, 6.0f));
     lightMan.addPointLight(pointLight);
 
+    lightSpotlightFollowing spotF(*list.m_objs[2]);
+    spotF.relPos = glm::vec3(0.0f, 5.0f, 0.0f);
+    spotF.relDirection = glm::normalize(glm::vec3(0.0f, -1.0f, 0.0f));
+    lightMan.addSpotlight(spotF);
+
     /* cameras */
     cameraMan.addCamera(cameraBase());
 
@@ -65,9 +72,13 @@ void sceneManager::addObjects()
     fc.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
     cameraMan.addCamera(fc);
 
-    followingRotatableCamera frc(*list.m_objs[4]);
+    followingRotatableCamera frc(*list.m_objs[2]);
     frc.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
     cameraMan.addCamera(frc);
+
+    followingRotatableCamera frc2(*list.m_objs[4]);
+    frc2.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
+    cameraMan.addCamera(frc2);
 
     cameraMan.nextCamera();
 }
@@ -75,6 +86,7 @@ void sceneManager::addObjects()
 void sceneManager::update(float dt)
 {
     list.update(dt);
+    lightMan.update(dt);
     cameraMan.update(dt);
 }
 

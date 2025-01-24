@@ -4,11 +4,14 @@
 
 #include "lightBase.hpp"
 
-class lightDirectional : public lightBase 
+class lightDirectional : public lightBase, public IClonable<lightDirectional>
 {
 public:
     explicit lightDirectional(glm::vec3 color = glm::vec3(1.0f, 1.0f, 1.0f))
         : lightBase(color, color, color) { }
+
+    [[nodiscard]] std::unique_ptr<lightDirectional> clone() const override
+        { return std::make_unique<lightDirectional>(*this); }
 
     glm::vec3 m_direction = glm::normalize(glm::vec3(-0.2f, -0.2f, -0.2f));
     float m_constant = 1.0f;

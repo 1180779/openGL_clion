@@ -72,13 +72,9 @@ in vec3 P;
 
 uniform Material material;
 
-#define LIGHTD_COUNT 1
-#define LIGHTS_COUNT 1
-#define LIGHTP_COUNT 2
-
-uniform LightDirectional lightD[LIGHTD_COUNT];
-uniform LightSpotlight lightS[LIGHTS_COUNT];
-uniform LightPoint lightP[LIGHTP_COUNT];
+uniform LightDirectional lightD[1];
+uniform LightSpotlight lightS[2];
+uniform LightPoint lightP[2];
 
 uniform int lightDCount;
 uniform int lightSCount;

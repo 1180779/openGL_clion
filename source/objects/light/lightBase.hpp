@@ -4,15 +4,15 @@
 
 #include "../shader.hpp"
 #include "../camera/camera.hpp"
+#include "../../interfaces/IClonable.hpp"
 
-class lightBase 
+class lightBase
 {
 public:
     explicit lightBase(glm::vec3 ambient = glm::vec3(0.2f, 0.2f, 0.2f),
               glm::vec3 diffuse = glm::vec3(1.0f, 1.0f, 1.0f),
               glm::vec3 specular = glm::vec3(1.0f, 1.0f, 1.0f));
     virtual ~lightBase() = default;
-
 
     virtual void update() { }
     virtual void setForShader(

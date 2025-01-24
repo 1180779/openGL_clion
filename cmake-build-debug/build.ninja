@@ -55,8 +55,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui.cpp.obj: CXX_COMPILER__openGL_clio
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/imGui/imgui_demo.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/imgui_demo.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\imGui\imgui_demo.cpp.obj.d
@@ -64,8 +62,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui_demo.cpp.obj: CXX_COMPILER__openGL
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/imGui/imgui_draw.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/imgui_draw.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\imGui\imgui_draw.cpp.obj.d
@@ -73,8 +69,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui_draw.cpp.obj: CXX_COMPILER__openGL
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/imGui/imgui_impl_glfw.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/imgui_impl_glfw.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\imGui\imgui_impl_glfw.cpp.obj.d
@@ -82,8 +76,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui_impl_glfw.cpp.obj: CXX_COMPILER__o
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/imGui/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\imGui\imgui_impl_opengl3.cpp.obj.d
@@ -91,8 +83,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui_impl_opengl3.cpp.obj: CXX_COMPILER
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/imGui/imgui_tables.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/imgui_tables.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\imGui\imgui_tables.cpp.obj.d
@@ -100,8 +90,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui_tables.cpp.obj: CXX_COMPILER__open
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/imGui/imgui_widgets.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/imgui_widgets.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\imGui\imgui_widgets.cpp.obj.d
@@ -109,8 +97,6 @@ build CMakeFiles/openGL_clion.dir/imGui/imgui_widgets.cpp.obj: CXX_COMPILER__ope
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\imGui
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/application.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/application.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\application.cpp.obj.d
@@ -118,8 +104,6 @@ build CMakeFiles/openGL_clion.dir/source/application.cpp.obj: CXX_COMPILER__open
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/deltaTime.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\deltaTime.cpp.obj.d
@@ -127,8 +111,6 @@ build CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj: CXX_COMPILER__openGL
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/main.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/main.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\main.cpp.obj.d
@@ -136,8 +118,6 @@ build CMakeFiles/openGL_clion.dir/source/main.cpp.obj: CXX_COMPILER__openGL_clio
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/camera/camera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/camera.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\camera.cpp.obj.d
@@ -145,8 +125,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/camera/camera.cpp.obj: CXX_COMP
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/camera/cameraManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/cameraManager.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\cameraManager.cpp.obj.d
@@ -154,8 +132,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/camera/cameraManager.cpp.obj: C
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/camera/followingCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/followingCamera.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\followingCamera.cpp.obj.d
@@ -163,8 +139,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/camera/followingCamera.cpp.obj:
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/camera/followingRotatableCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/followingRotatableCamera.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\followingRotatableCamera.cpp.obj.d
@@ -172,8 +146,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/camera/followingRotatableCamera
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/camera/movingCamera.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/camera/movingCamera.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\camera\movingCamera.cpp.obj.d
@@ -181,8 +153,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/camera/movingCamera.cpp.obj: CX
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\camera
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/glad.c.obj: C_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/glad.c || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\glad.c.obj.d
@@ -190,8 +160,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/glad.c.obj: C_COMPILER__openGL_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/light/lightBase.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightBase.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightBase.cpp.obj.d
@@ -199,8 +167,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/light/lightBase.cpp.obj: CXX_CO
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/light/lightDirectional.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightDirectional.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightDirectional.cpp.obj.d
@@ -208,8 +174,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/light/lightDirectional.cpp.obj:
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/light/lightManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightManager.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightManager.cpp.obj.d
@@ -217,8 +181,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/light/lightManager.cpp.obj: CXX
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/light/lightPoint.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightPoint.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightPoint.cpp.obj.d
@@ -226,8 +188,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/light/lightPoint.cpp.obj: CXX_C
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/light/lightSource.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightSource.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightSource.cpp.obj.d
@@ -235,8 +195,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/light/lightSource.cpp.obj: CXX_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlight.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightSpotlight.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightSpotlight.cpp.obj.d
@@ -244,8 +202,13 @@ build CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlight.cpp.obj: C
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
+
+build CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlightFollowing.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/light/lightSpotlightFollowing.cpp || cmake_object_order_depends_target_openGL_clion
+  DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\light\lightSpotlightFollowing.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
+  OBJECT_DIR = CMakeFiles\openGL_clion.dir
+  OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\light
 
 build CMakeFiles/openGL_clion.dir/source/objects/models/cubeShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/cubeShape.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\cubeShape.cpp.obj.d
@@ -253,8 +216,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/models/cubeShape.cpp.obj: CXX_C
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/models/material.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/material.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\material.cpp.obj.d
@@ -262,8 +223,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/models/material.cpp.obj: CXX_CO
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/models/objectList.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/objectList.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\objectList.cpp.obj.d
@@ -271,8 +230,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/models/objectList.cpp.obj: CXX_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/models/objectShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/objectShape.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\objectShape.cpp.obj.d
@@ -280,8 +237,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/models/objectShape.cpp.obj: CXX
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/models/sphereShape.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/models/sphereShape.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\models\sphereShape.cpp.obj.d
@@ -289,8 +244,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/models/sphereShape.cpp.obj: CXX
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects\models
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/sceneManager.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/sceneManager.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\sceneManager.cpp.obj.d
@@ -298,8 +251,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/sceneManager.cpp.obj: CXX_COMPI
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/shader.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/shader.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\shader.cpp.obj.d
@@ -307,8 +258,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/shader.cpp.obj: CXX_COMPILER__o
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/shadersC.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/shadersC.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\shadersC.cpp.obj.d
@@ -316,8 +265,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/shadersC.cpp.obj: CXX_COMPILER_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/objects/texture.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/objects/texture.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\objects\texture.cpp.obj.d
@@ -325,8 +272,6 @@ build CMakeFiles/openGL_clion.dir/source/objects/texture.cpp.obj: CXX_COMPILER__
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\objects
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/views/cameraView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/views/cameraView.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\views\cameraView.cpp.obj.d
@@ -334,8 +279,6 @@ build CMakeFiles/openGL_clion.dir/source/views/cameraView.cpp.obj: CXX_COMPILER_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\views
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/views/sceneView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/views/sceneView.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\views\sceneView.cpp.obj.d
@@ -343,8 +286,6 @@ build CMakeFiles/openGL_clion.dir/source/views/sceneView.cpp.obj: CXX_COMPILER__
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\views
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/source/views/uiView.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/source/views/uiView.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\source\views\uiView.cpp.obj.d
@@ -352,8 +293,6 @@ build CMakeFiles/openGL_clion.dir/source/views/uiView.cpp.obj: CXX_COMPILER__ope
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\source\views
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 build CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj: CXX_COMPILER__openGL_clion_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/sphere/Sphere.cpp || cmake_object_order_depends_target_openGL_clion
   DEP_FILE = CMakeFiles\openGL_clion.dir\sphere\Sphere.cpp.obj.d
@@ -361,8 +300,6 @@ build CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj: CXX_COMPILER__openGL_cl
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/openGL_clion" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/PRIVATE" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/Libraries/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include"
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   OBJECT_FILE_DIR = CMakeFiles\openGL_clion.dir\sphere
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
-  TARGET_PDB = openGL_clion.pdb
 
 
 # =============================================================================
@@ -372,7 +309,7 @@ build CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj: CXX_COMPILER__openGL_cl
 #############################################
 # Link the executable openGL_clion.exe
 
-build openGL_clion.exe: CXX_EXECUTABLE_LINKER__openGL_clion_Debug CMakeFiles/openGL_clion.dir/imGui/imgui.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_demo.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_draw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_glfw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_opengl3.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_tables.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_widgets.cpp.obj CMakeFiles/openGL_clion.dir/source/application.cpp.obj CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj CMakeFiles/openGL_clion.dir/source/main.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/camera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/cameraManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/followingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/followingRotatableCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/movingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/glad.c.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightBase.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightDirectional.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightPoint.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSource.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlight.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/cubeShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/material.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/objectList.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/objectShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/sphereShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/sceneManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/shader.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/shadersC.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/texture.cpp.obj CMakeFiles/openGL_clion.dir/source/views/cameraView.cpp.obj CMakeFiles/openGL_clion.dir/source/views/sceneView.cpp.obj CMakeFiles/openGL_clion.dir/source/views/uiView.cpp.obj CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj | glfw/src/libglfw3.a || glfw/src/libglfw3.a
+build openGL_clion.exe: CXX_EXECUTABLE_LINKER__openGL_clion_Debug CMakeFiles/openGL_clion.dir/imGui/imgui.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_demo.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_draw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_glfw.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_impl_opengl3.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_tables.cpp.obj CMakeFiles/openGL_clion.dir/imGui/imgui_widgets.cpp.obj CMakeFiles/openGL_clion.dir/source/application.cpp.obj CMakeFiles/openGL_clion.dir/source/deltaTime.cpp.obj CMakeFiles/openGL_clion.dir/source/main.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/camera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/cameraManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/followingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/followingRotatableCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/camera/movingCamera.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/glad.c.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightBase.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightDirectional.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightPoint.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSource.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlight.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/light/lightSpotlightFollowing.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/cubeShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/material.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/objectList.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/objectShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/models/sphereShape.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/sceneManager.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/shader.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/shadersC.cpp.obj CMakeFiles/openGL_clion.dir/source/objects/texture.cpp.obj CMakeFiles/openGL_clion.dir/source/views/cameraView.cpp.obj CMakeFiles/openGL_clion.dir/source/views/sceneView.cpp.obj CMakeFiles/openGL_clion.dir/source/views/uiView.cpp.obj CMakeFiles/openGL_clion.dir/sphere/Sphere.cpp.obj | glfw/src/libglfw3.a || glfw/src/libglfw3.a
   FLAGS = -g
   LINK_FLAGS = -Wl,--subsystem,console
   LINK_LIBRARIES = -lopengl32  -lgdi32  glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -380,10 +317,9 @@ build openGL_clion.exe: CXX_EXECUTABLE_LINKER__openGL_clion_Debug CMakeFiles/ope
   OBJECT_DIR = CMakeFiles\openGL_clion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\openGL_clion.dir\
   TARGET_FILE = openGL_clion.exe
   TARGET_IMPLIB = libopenGL_clion.dll.a
-  TARGET_PDB = openGL_clion.pdb
+  TARGET_PDB = openGL_clion.exe.dbg
 
 
 #############################################
@@ -477,9 +413,8 @@ build Libraries/include/glad/libglad.a: CXX_STATIC_LIBRARY_LINKER__glad_Debug
   OBJECT_DIR = Libraries\include\glad\CMakeFiles\glad.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = Libraries\include\glad\CMakeFiles\glad.dir\glad.pdb
   TARGET_FILE = Libraries\include\glad\libglad.a
-  TARGET_PDB = Libraries\include\glad\libglad.pdb
+  TARGET_PDB = glad.a.dbg
 
 
 #############################################
@@ -573,9 +508,8 @@ build Libraries/include/GLFW/libGLFW.a: CXX_STATIC_LIBRARY_LINKER__GLFW_Debug
   OBJECT_DIR = Libraries\include\GLFW\CMakeFiles\GLFW.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = Libraries\include\GLFW\CMakeFiles\GLFW.dir\GLFW.pdb
   TARGET_FILE = Libraries\include\GLFW\libGLFW.a
-  TARGET_PDB = Libraries\include\GLFW\libGLFW.pdb
+  TARGET_PDB = GLFW.a.dbg
 
 
 #############################################
@@ -956,8 +890,6 @@ build glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Deb
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -966,8 +898,6 @@ build glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug 
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -976,8 +906,6 @@ build glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -986,8 +914,6 @@ build glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Deb
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -996,8 +922,6 @@ build glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_De
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1006,8 +930,6 @@ build glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debu
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1016,8 +938,6 @@ build glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debu
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1026,8 +946,6 @@ build glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1036,8 +954,6 @@ build glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscan
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1046,8 +962,6 @@ build glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_D
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1056,8 +970,6 @@ build glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanne
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1066,8 +978,6 @@ build glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1076,8 +986,6 @@ build glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscann
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1086,8 +994,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanne
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1096,8 +1002,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1106,8 +1010,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanne
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1116,8 +1018,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1126,8 +1026,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscan
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1136,8 +1034,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscann
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1146,8 +1042,6 @@ build glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanne
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 build glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -1156,8 +1050,6 @@ build glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned
   INCLUDES = -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/include" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/glfw/src" -I"C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/cmake-build-debug/glfw/src"
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = glfw\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -1172,9 +1064,8 @@ build glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug glfw/src/CMakeFil
   OBJECT_DIR = glfw\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = glfw\src\libglfw3.a
-  TARGET_PDB = glfw\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -1419,14 +1310,14 @@ build sphere/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/GLFW/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glad/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glm/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3.pc.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3Config.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/docs/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/sphere/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/GLFW/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glad/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glm/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3.pc.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3Config.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/docs/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/sphere/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/GLFW/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glad/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glm/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3.pc.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3Config.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/docs/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/sphere/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/GLFW/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glad/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/Libraries/include/glm/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3.pc.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/CMake/glfw3Config.cmake.in C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/docs/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/glfw/src/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/imGui/CMakeLists.txt C$:/Users/rdkgs/MojePliki/studia/semestr$ V/grafika/openGL_clion/sphere/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
