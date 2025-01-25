@@ -55,7 +55,7 @@ void value::render() const
     glDrawElements(GL_TRIANGLES, 
         static_cast<unsigned int>(triangleCount), 
         GL_UNSIGNED_INT, 
-        0);
+        nullptr);
 }
 
 value::~value()

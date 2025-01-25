@@ -17,6 +17,8 @@ public:
     void render() const override { }
     void onExit() override { }
     ~uiView() override = default;
+
+    bool wireMode = false;
 };
 
 #endif

@@ -13,8 +13,13 @@ class shader
 {
 public:
 
-    shader(const char* vertexShaderC, const char* fragmentShaderC, const char* geometryShaderC = nullptr);
-    ~shader();
+    shader(
+        const char* vertexShaderC,
+        const char* fragmentShaderC,
+        const char* geometryShaderC = nullptr,
+        const char* tesselationControlShaderC = nullptr,
+        const char* tesselationEvaluationShaderC = nullptr);
+    virtual ~shader();
 
     void use() const;
 
@@ -29,6 +34,8 @@ public:
     const char* vertexShaderC;
     const char* fragmentShaderC;
     const char* geometryShaderC;
+    const char* tesselationControlShaderC;
+    const char* tesselationEvaluationShaderC;
 
 private:
     GLuint m_program;
@@ -36,6 +43,8 @@ private:
     GLuint m_vertexShader;
     GLuint m_fragmentShader;
     GLuint m_geometryShader;
+    GLuint m_tesselationControlShader;
+    GLuint m_tesselationEvaluationShader;
 };
 
 #endif

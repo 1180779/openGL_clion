@@ -22,7 +22,13 @@ public:
     void render() const;
 
     shader sh = shader(vertexSS, fragmentSSCombined);
-    objectList list = objectList(sh);
+    shader shBezier = shader(
+        vertexSBSS,
+        fragmentSSCombined,
+        nullptr,
+        tesselacionControlSBSS,
+        tesselationEvaluationSBSS);
+    objectList list = objectList(sh, shBezier);
     lightManager lightMan;
     cameraManager cameraMan;
 };

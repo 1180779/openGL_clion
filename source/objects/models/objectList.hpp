@@ -13,10 +13,12 @@
 
 #include "../light/lightManager.hpp"
 
+#include "bezierShape.hpp"
+
 class objectList 
 {
 public:
-    explicit objectList(shader& sh);
+    explicit objectList(shader& sh, shader& shBezier);
     virtual ~objectList();
 
     objectList& addObject(objectShape* obj);
@@ -35,6 +37,10 @@ public:
 
     shader& m_sh;
     std::vector<objectShape*> m_objs;
+
+    shader& m_shBezier;
+    bezierShape* m_bezier = nullptr;
+
     glm::mat4 m_trans = glm::mat4(1.0f);
 };
 

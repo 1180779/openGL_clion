@@ -12,16 +12,15 @@
 class objectShape
 {
 public:
-    objectShape() { }
-    objectShape(const objectShape& other)
-        : pos(other.pos), scale(other.scale),
-        pitch(other.pitch), yaw(other.yaw), roll(other.roll),
-        material(other.material) { }
+    virtual ~objectShape() = default;
+
+    objectShape() = default;
+    objectShape(const objectShape& other) = default;
 
     virtual void render(shader& sh) const;
 
-    glm::mat4 model() const; /* model matrix */
-    glm::mat4 normalMatrix() const; /* matrix for normal vectors */
+    [[nodiscard]] glm::mat4 model() const; /* model matrix */
+    [[nodiscard]] glm::mat4 normalMatrix() const; /* matrix for normal vectors */
 
     /* position variables */
 

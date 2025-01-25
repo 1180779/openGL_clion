@@ -1,18 +1,16 @@
 
 #include "shadersC.hpp"
 
-// https://learnopengl.com
-
-// --------------------------------------------------
-// basic shaders
+/* ------------------------------------------------------------------------------------- */
+/* normal shaders */
 
 const char* vertexSS = R"( 
 #version 330 core
 layout (location = 0) in vec3 aPos;
 layout (location = 1) in vec3 aNormal;
 
-out vec3 P;  
-out vec3 normal;  
+out vec3 P;
+out vec3 normal;
 
 uniform mat4 model;
 uniform mat4 view;
@@ -167,3 +165,156 @@ void main()
 
 
 )";
+
+
+/* ------------------------------------------------------------------------------------- */
+/* shaders for bezier sufrace */
+
+/* BSS = Bezier Surface Source */
+
+const char* vertexSBSS = R"(
+#version 460 core
+
+layout (location = 0) in vec3 aPos;
+
+void main()
+{
+    gl_Position = vec4(aPos, 1.0);
+}
+)";
+
+const char* tesselacionControlSBSS = R"(
+#version 460 core
+
+// specify number of control points per patch output
+// this value controls the size of the input and output arrays
+layout (vertices = 16) out;
+
+void main()
+{
+    // ----------------------------------------------------------------------
+    // pass attributes through
+    gl_out[gl_InvocationID].gl_Position = gl_in[gl_InvocationID].gl_Position;
+
+    // ----------------------------------------------------------------------
+    // invocation zero controls tessellation levels for the entire patch
+    if (gl_InvocationID == 0)
+    {
+        gl_TessLevelOuter[0] = 16.0;
+        gl_TessLevelOuter[1] = 16.0;
+        gl_TessLevelOuter[2] = 16.0;
+        gl_TessLevelOuter[3] = 16.0;
+
+        gl_TessLevelInner[0] = 16.0;
+        gl_TessLevelInner[1] = 16.0;
+    }
+}
+)";
+
+const char* tesselationEvaluationSBSS = R"(
+#version 460 core
+
+layout (quads, fractional_odd_spacing, ccw) in;
+
+uniform mat4 model;           // the model matrix
+uniform mat4 view;            // the view matrix
+uniform mat4 projection;      // the projection matrix
+
+uniform float time;
+
+out vec3 P;
+out vec3 normal;
+
+void main()
+{
+    // get patch coordinate
+    float u = gl_TessCoord.x;
+    float v = gl_TessCoord.y;
+
+	// get bezier surface point location
+
+    float Bu[4] = float[4](
+        (1.0 - u) * (1.0 - u) * (1.0 - u), // B0(u)
+        3.0 * u * (1.0 - u) * (1.0 - u),  // B1(u)
+        3.0 * u * u * (1.0 - u),          // B2(u)
+        u * u * u                         // B3(u)
+    );
+
+    float Bv[4] = float[4](
+        (1.0 - v) * (1.0 - v) * (1.0 - v), // B0(v)
+        3.0 * v * (1.0 - v) * (1.0 - v),  // B1(v)
+        3.0 * v * v * (1.0 - v),          // B2(v)
+        v * v * v                         // B3(v)
+    );
+
+    vec3 point = vec3(0.0);
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4; ++j) {
+            float weight = Bu[i] * Bv[j];
+            point += weight * gl_in[i * 4 + j].gl_Position.xyz;
+        }
+    }
+
+	// normal vector calculation
+
+    float dBu[4] = float[4](
+        -3.0 * (1.0 - u) * (1.0 - u),
+        3.0 * (1.0 - u) * (1.0 - u) - 6.0 * u * (1.0 - u),
+        6.0 * u * (1.0 - u) - 3.0 * u * u,
+        3.0 * u * u
+    );
+
+    float dBv[4] = float[4](
+        -3.0 * (1.0 - v) * (1.0 - v),
+        3.0 * (1.0 - v) * (1.0 - v) - 6.0 * v * (1.0 - v),
+        6.0 * v * (1.0 - v) - 3.0 * v * v,
+        3.0 * v * v
+    );
+
+    vec3 dPdu = vec3(0.0);
+    vec3 dPdv = vec3(0.0);
+
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4; ++j) {
+            float weightU = dBu[i] * Bv[j];
+            float weightV = Bu[i] * dBv[j];
+            vec3 controlPoint = gl_in[i * 4 + j].gl_Position.xyz;
+
+            dPdu += weightU * controlPoint;
+            dPdv += weightV * controlPoint;
+        }
+    }
+
+    float waveAmplitudeY = 0.2;
+    float waveFrequencyY = 4.0;
+    float waveSpeedY = 1.0;
+    float displacementY = v * waveAmplitudeY * sin(waveFrequencyY * u + time * waveSpeedY);
+
+    float waveAmplitudeZ = 0.45;
+    float waveFrequencyZ = 6.0;
+    float waveSpeedZ = 4.6;
+    float displacementZ = u * waveAmplitudeZ * sin(waveFrequencyZ * u + time * waveSpeedZ)
+        + 0.2 * u * cos(1.0 * v + time * 3.0);
+
+    //point.y += displacementY;
+    point.z += displacementZ;
+
+    normal = normalize(cross(dPdu, dPdv));
+	P = (model * vec4(point, 1.0f)).xyz;
+    gl_Position = projection * view * model * vec4(point, 1.0f);
+}
+)";
+
+const char* fragmentSBSS = R"(
+#version 460 core
+
+out vec4 FragColor;
+in vec3 P;
+
+void main()
+{
+    FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+}
+)";
+
+

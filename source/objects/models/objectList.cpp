@@ -4,13 +4,15 @@
 #include "objectList.hpp"
 #include "../light/lightManager.hpp"
 
-objectList::objectList(shader& sh) : m_sh(sh) { }
+objectList::objectList(shader& sh, shader& shBezier)
+    : m_sh(sh), m_shBezier(shBezier) { }
 
 objectList::~objectList()
 {
     for (auto o : m_objs) {
         delete o;
     }
+    delete m_bezier;
 }
 
 objectList& objectList::addObject(objectShape* obj)
@@ -57,4 +59,15 @@ void objectList::render(
         m_sh.setMatrix4fv(modelName, m_trans * obj->model());
         obj->render(m_sh);
     }
+
+    if (!m_bezier)
+        return;
+    /* bezier only */
+    cam.setForShader(m_shBezier);
+    lightMan.setForShader(m_shBezier);
+    m_shBezier.setMatrix4fv(modelName, m_trans * m_bezier->model());
+    m_shBezier.set1f("time", static_cast<float>(glfwGetTime()));
+    m_bezier->render(m_shBezier);
 }
+
+

@@ -38,6 +38,11 @@ void sceneManager::addObjects()
     s->pos = glm::vec3(-5.0f, 0.0f, 0.0f);
     list.addObject(s);
 
+    auto b = new bezierShape();
+    b->pos = glm::vec3(0.0f, 2.0f, 0.0f);
+    b->material = material::jade;
+    list.m_bezier = b;
+
     /* lights */
 
     lightSpotlight spotlight;

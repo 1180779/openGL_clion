@@ -7,27 +7,59 @@
 #include <fstream>
 
 GLuint compileShader(const char* source, GLenum shaderType);
-GLuint linkProgram(GLuint vertexShader, GLuint fragmentShader, GLuint geometryShader = -1);
+GLuint linkProgram(
+    GLuint vertexShader,
+    GLuint fragmentShader,
+    GLuint geometryShader = -1,
+    GLuint tesselationControlShader = -1,
+    GLuint tesselationEvaluationShader = -1);
 
-shader::shader(const char* vertexShaderC, const char* fragmentShaderC, const char* geometryShaderC)
+shader::shader(
+    const char* vertexShaderC,
+    const char* fragmentShaderC,
+    const char* geometryShaderC,
+    const char* tesselationControlShaderC,
+    const char* tesselationEvaluationShaderC)
 {
     this->vertexShaderC = vertexShaderC;
     this->fragmentShaderC = fragmentShaderC;
     this->geometryShaderC = geometryShaderC;
+    this->tesselationControlShaderC = tesselationControlShaderC;
+    this->tesselationEvaluationShaderC = tesselationEvaluationShaderC;
 
     m_vertexShader = ::compileShader(vertexShaderC, GL_VERTEX_SHADER);
     m_fragmentShader = ::compileShader(fragmentShaderC, GL_FRAGMENT_SHADER);
     m_geometryShader = -1;
+    m_tesselationControlShader = -1;
+    m_tesselationEvaluationShader = -1;
     if (geometryShaderC != nullptr)
-        m_geometryShader = ::compileShader(geometryShaderC, GL_GEOMETRY_SHADER);
+        m_geometryShader = ::compileShader(
+            geometryShaderC,
+            GL_GEOMETRY_SHADER);
+    if (tesselationControlShaderC != nullptr)
+        m_tesselationControlShader = ::compileShader(
+            tesselationControlShaderC,
+            GL_TESS_CONTROL_SHADER);
+    if (tesselationEvaluationShaderC != nullptr)
+        m_tesselationEvaluationShader = ::compileShader(
+            tesselationEvaluationShaderC,
+            GL_TESS_EVALUATION_SHADER);
 
-    m_program = ::linkProgram(m_vertexShader, m_fragmentShader, m_geometryShader);
+    m_program = ::linkProgram(
+        m_vertexShader,
+        m_fragmentShader,
+        m_geometryShader,
+        m_tesselationControlShader,
+        m_tesselationEvaluationShader);
 
     glDeleteShader(m_vertexShader);
     glDeleteShader(m_fragmentShader);
-    if (m_geometryShader != -1) {
+    if (m_geometryShader != -1)
         glDeleteShader(m_geometryShader);
-    }
+    if (m_tesselationControlShader != -1)
+        glDeleteShader(m_tesselationControlShader);
+    if (m_tesselationEvaluationShader != -1)
+        glDeleteShader(m_tesselationEvaluationShader);
 }
 
 shader::~shader()
@@ -50,6 +82,7 @@ void shader::set1i(const std::string& name, int v) const
 {
     glUniform1i(glGetUniformLocation(m_program, name.c_str()), v);
 }
+
 void shader::set1f(const std::string& name, float v) const
 {
     glUniform1f(glGetUniformLocation(m_program, name.c_str()), v);
@@ -95,12 +128,22 @@ GLuint compileShader(const char* source, GLenum shaderType) {
     return shader;
 }
 
-GLuint linkProgram(GLuint vertexShader, GLuint fragmentShader, GLuint geometryShader) {
+GLuint linkProgram(
+    GLuint vertexShader,
+    GLuint fragmentShader,
+    GLuint geometryShader,
+    GLuint tesselationControlShader,
+    GLuint tesselationEvaluationShader)
+{
     GLuint program = glCreateProgram();
     glAttachShader(program, vertexShader);
     glAttachShader(program, fragmentShader);
     if (geometryShader != -1)
         glAttachShader(program, geometryShader);
+    if (tesselationControlShader != -1)
+        glAttachShader(program, tesselationControlShader);
+    if (tesselationEvaluationShader != -1)
+        glAttachShader(program, tesselationEvaluationShader);
     glLinkProgram(program);
 
     // Check for linking errors

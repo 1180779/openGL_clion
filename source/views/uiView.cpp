@@ -31,6 +31,14 @@ void uiView::ui()
     ImGui::SetNextWindowSize(ImVec2(300, 120));
     ImGui::Begin("Settings", nullptr,
         ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse);
+    if (ImGui::Checkbox("wire mode", &wireMode)) {
+        if (wireMode) {
+            glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+        }
+        else {
+            glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+        }
+    }
     ImGui::Checkbox("day",
         &m_parent.scene.lightMan.day);
     ImGui::Checkbox("ortho (per camera)",
