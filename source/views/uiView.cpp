@@ -28,7 +28,7 @@ void uiView::onEnter()
 
 void uiView::ui()
 {
-    ImGui::SetNextWindowSize(ImVec2(300, 120));
+    ImGui::SetNextWindowSize(ImVec2(300, 180));
     ImGui::Begin("Settings", nullptr,
         ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse);
     if (ImGui::Checkbox("wire mode", &wireMode)) {
@@ -39,6 +39,9 @@ void uiView::ui()
             glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
         }
     }
+
+    ImGui::Checkbox("flashlight",
+        &m_parent.scene.lightMan.flashLightOn);
     ImGui::Checkbox("day",
         &m_parent.scene.lightMan.day);
     ImGui::Checkbox("ortho (per camera)",

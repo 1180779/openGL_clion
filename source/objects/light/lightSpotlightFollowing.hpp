@@ -7,10 +7,11 @@
 
 #include "lightSpotlight.hpp"
 #include "../models/objectShape.hpp"
+#include "../../interfaces/IFollowable.hpp"
 
 class lightSpotlightFollowing : public lightSpotlight {
 public:
-    explicit lightSpotlightFollowing(objectShape& obj) : m_obj(obj) { }
+    explicit lightSpotlightFollowing(IFollowable& obj) : m_obj(obj) { }
 
     [[nodiscard]] std::unique_ptr<lightSpotlight> clone() const override
         { return std::make_unique<lightSpotlightFollowing>(*this); }
@@ -21,7 +22,7 @@ public:
     glm::vec3 relPos = glm::vec3(0, 0, 0);
 
 private:
-    objectShape& m_obj;
+    IFollowable& m_obj;
 };
 
 

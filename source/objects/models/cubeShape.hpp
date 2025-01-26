@@ -7,9 +7,9 @@
 class cubeShape : public objectShape
 {
 public:
-    cubeShape(glm::vec3 color = glm::vec3(0.5f, 0.5f, 0.5f));
+    explicit cubeShape(glm::vec3 color = glm::vec3(0.5f, 0.5f, 0.5f));
     cubeShape(const cubeShape& other);
-    ~cubeShape();
+    ~cubeShape() override;
 
     void render(shader& sh) const override;
 

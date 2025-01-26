@@ -45,7 +45,9 @@ void objectList::update(float dt)
     t = glm::rotate(t, glm::radians(5.0f * dt), glm::vec3(1.0f, 0.0f, 0.0f));
     glm::vec3 res = t * glm::vec4(m_objs[2]->pos, 1.0f);
     m_objs[2]->pos = res;
+
     m_objs[2]->roll = std::remainder(m_objs[2]->roll + 10.0f * dt, 360.0f);
+    m_objs[2]->yaw = std::remainder(m_objs[2]->yaw + 10.0f * dt, 360.0f);
 }
 
 void objectList::render(

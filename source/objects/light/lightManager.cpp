@@ -4,13 +4,11 @@
 void lightManager::addPointLight(const lightPoint& light)
 {
     m_pointLights.push_back(light.clone());
-    m_pointLights[m_pointLights.size() - 1]->m_shape.scale = glm::vec3(0.1f, 0.1f, 0.1f);
 }
 
 void lightManager::addSpotlight(const lightSpotlight& light)
 {
     m_spotlights.push_back(light.clone());
-    m_spotlights[m_spotlights.size() - 1]->m_shape.scale = glm::vec3(0.1f, 0.1f, 0.1f);
 }
 
 void lightManager::addDirectionalLight(const lightDirectional& light)
@@ -34,8 +32,20 @@ void lightManager::setForShader(const shader& sh) const
         sh.set1i("lightDCount", 0);
     }
 
-    sh.set1i("lightSCount",
-        static_cast<int>(m_spotlights.size()));
+    int lightSCount = 0;
+    if (flashLightOn) {
+        if (m_flashLight) { /* add flashlight to spotlight if set */
+            m_flashLight->setForShader(sh, "lightS[" + std::to_string(m_spotlights.size()) + ']');
+            lightSCount = static_cast<int>(m_spotlights.size() + 1);
+        }
+        else {
+            lightSCount = static_cast<int>(m_spotlights.size());
+        }
+    }
+    else {
+        lightSCount = static_cast<int>(m_spotlights.size());
+    }
+    sh.set1i("lightSCount", lightSCount);
     for (int i = 0; i < m_spotlights.size(); ++i) {
         m_spotlights[i]->setForShader(sh, "lightS[" + std::to_string(i) + ']');
     }
@@ -64,6 +74,11 @@ void lightManager::render(const cameraBase& cam) const
 
 void lightManager::update(float dt)
 {
+    if (flashLightOn) {
+        if (m_flashLight)
+            m_flashLight->update();
+    }
+
     for (auto& light : m_pointLights)
         light->update();
     for (auto& light : m_spotlights)

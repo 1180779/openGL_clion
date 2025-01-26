@@ -19,6 +19,9 @@ public:
     void setForShader(
         const shader& sh, 
         const std::string& structShName) const override;
+    void render(const cameraBase &cam) const override {
+        lightSource::render(cam);
+    };
 };
 
 #endif

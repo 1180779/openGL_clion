@@ -70,9 +70,9 @@ in vec3 P;
 
 uniform Material material;
 
-uniform LightDirectional lightD[1];
-uniform LightSpotlight lightS[2];
-uniform LightPoint lightP[2];
+uniform LightDirectional lightD[4];
+uniform LightSpotlight lightS[4];
+uniform LightPoint lightP[4];
 
 uniform int lightDCount;
 uniform int lightSCount;

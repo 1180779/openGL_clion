@@ -22,10 +22,12 @@ glm::mat4 objectShape::model() const
 {
     auto t = s_model;
     t = glm::translate(t, pos);
-    t = glm::scale(t, scale);
+
     t = glm::rotate(t, glm::radians(pitch), glm::vec3(1.0f, 0.0f, 0.0f));
     t = glm::rotate(t, glm::radians(yaw), glm::vec3(0.0f, 1.0f, 0.0f));
     t = glm::rotate(t, glm::radians(roll), glm::vec3(0.0f, 0.0f, 1.0f));
+
+    t = glm::scale(t, scale);
     return t;
 }
 

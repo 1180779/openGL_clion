@@ -16,6 +16,8 @@ struct keyBinds {
 
     int cameraNext = GLFW_KEY_N;
     int cameraPrev = GLFW_KEY_M;
+
+    int flashlight = GLFW_KEY_F;
 };
 
 #endif

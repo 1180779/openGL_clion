@@ -10,9 +10,10 @@
 
 #include "../../window.hpp"
 #include "../../interfaces/IClonable.hpp"
+#include "../../interfaces/IFollowable.hpp"
 #include "../../keyBinds.hpp"
 
-class cameraBase : IClonable<cameraBase>
+class cameraBase : public IClonable<cameraBase>, public IFollowable
 {
 public:
     cameraBase() = default;
@@ -26,7 +27,12 @@ public:
     /* update pos */
     virtual void update(float dt) { }
 
-    [[nodiscard]] inline glm::vec3 getPos() const { return pos; }
+    /* IFollowable */
+    [[nodiscard]] float getPitch() const override { return pitch; }
+    [[nodiscard]] float getYaw() const override { return yaw; }
+    [[nodiscard]] float getRoll() const override { return 0; }
+    [[nodiscard]] glm::vec3 getPos() const override { return pos; }
+
 
     /* process input */
     virtual void processInput(GLFWwindow* window, const keyBinds& keys, float dt) { }
@@ -53,7 +59,7 @@ public:
 
     glm::vec3 front = glm::vec3(0.0f, 0.0f, -1.0f);
     glm::vec3 up = glm::vec3(0.f, 1.f, 0.f);
-    glm::vec3 direction = glm::normalize(glm::vec3(1.0f, 1.0f, 1.0f));
+    glm::vec3 direction = glm::normalize(glm::vec3(0.0f, 0.0f, -1.0f));
 
     static cameraBase* currentCamera;
     static float lastX, lastY;

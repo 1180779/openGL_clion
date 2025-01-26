@@ -38,6 +38,11 @@ void sceneManager::addObjects()
     s->pos = glm::vec3(-5.0f, 0.0f, 0.0f);
     list.addObject(s);
 
+    auto s2 = new sphereShape(10, 6);
+    s2->material = material::ruby;
+    s2->pos = glm::vec3(3.0f, 7.0f, 0.0f);
+    list.addObject(s2);
+
     auto b = new bezierShape();
     b->pos = glm::vec3(0.0f, 2.0f, 0.0f);
     b->material = material::jade;
@@ -58,20 +63,27 @@ void sceneManager::addObjects()
     pointLight.setPos(glm::vec3(-3.8f, -4.0f, -12.3f));
     lightMan.addPointLight(pointLight);
 
-    pointLight.setPos(glm::vec3(5.0f, 5.0f, 6.0f));
+    pointLight.setPos(list.m_objs[5]->pos + glm::vec3(0.0f, 2.0f, 0.0f));
     lightMan.addPointLight(pointLight);
 
     lightSpotlightFollowing spotF(*list.m_objs[2]);
-    spotF.relPos = glm::vec3(0.0f, 5.0f, 0.0f);
-    spotF.relDirection = glm::normalize(glm::vec3(0.0f, -1.0f, 0.0f));
+    spotF.relPos = glm::vec3(0.0f, 0.0f, 2.0f);
+    spotF.relDirection = glm::normalize(-spotF.relPos);
     lightMan.addSpotlight(spotF);
 
     /* cameras */
-    cameraMan.addCamera(cameraBase());
 
     movingCamera c;
     c.pos = glm::vec3(10.0f, 10.0f, 10.0f);
     cameraMan.addCamera(c);
+
+    cameraMan.nextCamera();
+    std::unique_ptr<lightSpotlightFollowing> flashlight =
+        std::make_unique<lightSpotlightFollowing>(cameraMan.getCamera());
+    flashlight->relPos = glm::vec3(0.0f, 0.0f, 0.0f);
+    lightMan.addFlashlight(flashlight);
+
+    cameraMan.addCamera(cameraBase());
 
     followingCamera fc(*list.m_objs[2]);
     fc.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
@@ -85,7 +97,7 @@ void sceneManager::addObjects()
     frc2.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
     cameraMan.addCamera(frc2);
 
-    cameraMan.nextCamera();
+
 }
 
 void sceneManager::update(float dt)

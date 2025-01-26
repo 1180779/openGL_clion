@@ -24,6 +24,7 @@ include_directories(openGL_clion PRIVATE Libraries/include)
 add_executable(openGL_clion ${SOURCE}
         source/objects/models/bezierShape.cpp
         source/objects/models/bezierShape.hpp
+        source/interfaces/IFollowable.hpp
 )
 set_target_properties(openGL_clion PROPERTIES LINKER_LANGUAGE CXX LINK_FLAGS "-Wl,--subsystem,console")
 

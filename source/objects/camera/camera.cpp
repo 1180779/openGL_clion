@@ -14,8 +14,8 @@ void cameraBase::setCurrent(window& window)
     lastX = static_cast<float>(xpos);
     lastY = static_cast<float>(ypos);
     
-    glfwSetCursorPosCallback(window.handle, NULL);
-    glfwSetScrollCallback(window.handle, NULL);
+    glfwSetCursorPosCallback(window.handle, nullptr);
+    glfwSetScrollCallback(window.handle, nullptr);
 }
 
 void cameraBase::setForShader(

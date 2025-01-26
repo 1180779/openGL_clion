@@ -14,6 +14,9 @@ static void keysCallback(GLFWwindow* window, int key, int scancode, int action, 
     if(key == currentParent->app.keys.cameraPrev && action == GLFW_PRESS) {
         currentParent->scene.cameraMan.prevCamera();
     }
+    if(key == currentParent->app.keys.flashlight && action == GLFW_PRESS) {
+        currentParent->scene.lightMan.flashLightOn = !currentParent->scene.lightMan.flashLightOn;
+    }
 }
 
 void cameraView::handleInput()

@@ -28,17 +28,19 @@ void sceneView::ui()
 
     /* camera pos + framerate window */
 
-    ImGui::SetNextWindowSize(ImVec2(300, 120));
+    ImGui::SetNextWindowSize(ImVec2(400, 200));
     ImGui::Begin("Camera pos", nullptr, ImGuiWindowFlags_NoResize);
 
     ImGui::SetNextItemWidth(150);
 
     if (cameraBase::currentCamera)
     {
+        auto& cam = *cameraBase::currentCamera;
         ImGui::Text("index: %d", scene.cameraMan.getIndex());
-        ImGui::Text("x = %5.2f", cameraBase::currentCamera->getPos().x);
-        ImGui::Text("y = %5.2f", cameraBase::currentCamera->getPos().y);
-        ImGui::Text("z = %5.2f", cameraBase::currentCamera->getPos().z);
+        ImGui::Text("x = %5.2f", cam.getPos().x);
+        ImGui::Text("y = %5.2f", cam.getPos().y);
+        ImGui::Text("z = %5.2f", cam.getPos().z);
+        ImGui::Text("direction = (%f, %f, %f)", cam.direction.x, cam.direction.y, cam.direction.z);
     }
 
     const ImGuiIO& io = ImGui::GetIO();
@@ -50,6 +52,9 @@ void sceneView::ui()
     ImGui::SetNextWindowSize(ImVec2(300, 220));
     ImGui::Begin("Help", nullptr, ImGuiWindowFlags_NoResize);
 
+    ImGui::Text("%15s%3c", "flashlight:", app.keys.flashlight);
+
+    ImGui::Spacing();
     ImGui::Text("Camera key binds:");
 
     ImGui::Spacing();

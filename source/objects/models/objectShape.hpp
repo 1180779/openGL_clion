@@ -8,14 +8,21 @@
 
 #include "../shader.hpp"
 #include "material.hpp"
+#include "../../interfaces/IFollowable.hpp"
 
-class objectShape
+class objectShape : public IFollowable
 {
 public:
     virtual ~objectShape() = default;
 
     objectShape() = default;
     objectShape(const objectShape& other) = default;
+
+    /* IFollowable */
+    [[nodiscard]] float getPitch() const override { return pitch; }
+    [[nodiscard]] float getYaw() const override { return yaw; }
+    [[nodiscard]] float getRoll() const override { return roll; }
+    [[nodiscard]] glm::vec3 getPos() const override { return pos; }
 
     virtual void render(shader& sh) const;
 
