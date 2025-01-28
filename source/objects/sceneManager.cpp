@@ -96,8 +96,6 @@ void sceneManager::addObjects()
     followingRotatableCamera frc2(*list.m_objs[4]);
     frc2.relPos = glm::vec3(0.0f, 4.0f, 4.0f);
     cameraMan.addCamera(frc2);
-
-
 }
 
 void sceneManager::update(float dt)

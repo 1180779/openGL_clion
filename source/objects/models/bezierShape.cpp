@@ -11,23 +11,23 @@ GLuint bezierShape::s_VBO = 0;
 GLuint bezierShape::s_EBO = 0;
 GLuint bezierShape::s_VAO = 0;
 
-float bezierShape::s_vertices[16 * 3] = {
-    -0.77f,     -0.52f,      0.1f,
-    -1.f,       -0.09f,      0.0f,
-    -0.77f,      0.15f,      0.12f,
-    -0.77f,      0.5f,       0.31f,
-    -0.35f,     -0.45f,     -0.20f,
-    -0.26f,     -0.2f,       0.03f,
-    -0.26f,      0.18f,      0.13f,
-    -0.26f,      0.56f,     -0.03f,
-    0.22f,      -0.56f,     -0.26f,
-    0.26f,      -0.21f,      0.21f,
-    0.26f,       0.19f,      0.01f,
-    0.22f,       0.55f,      0.0f,
-    0.77f,      -0.54f,     -0.32f,
-    0.77f,      -0.18f,      0.29f,
-    0.77f,       0.18f,      0.15f,
-    0.91f,       0.6f,      -0.01f
+float bezierShape::s_vertices[16 * 5] = {
+    -0.77f,     -0.52f,      0.1f,      0.0f,   0.0f,
+    -1.f,       -0.09f,      0.0f,      0.33f,  0.0f,
+    -0.77f,      0.15f,      0.12f,     0.66f,  0.0f,
+    -0.77f,      0.5f,       0.31f,     1.0f,   0.0f,
+    -0.35f,     -0.45f,     -0.20f,     0.0f,   0.33f,
+    -0.26f,     -0.2f,       0.03f,     0.33f,  0.33f,
+    -0.26f,      0.18f,      0.13f,     0.66f,  0.33f,
+    -0.26f,      0.56f,     -0.03f,     1.0f,   0.33f,
+    0.22f,      -0.56f,     -0.26f,     0.0f,   0.66f,
+    0.26f,      -0.21f,      0.21f,     0.33f,  0.66f,
+    0.26f,       0.19f,      0.01f,     0.66f,  0.66f,
+    0.22f,       0.55f,      0.0f,      1.0f,   0.66f,
+    0.77f,      -0.54f,     -0.32f,     0.0f,   1.0f,
+    0.77f,      -0.18f,      0.29f,     0.33f,  1.0f,
+    0.77f,       0.18f,      0.15f,     0.66f,  1.0f,
+    0.91f,       0.6f,      -0.01f,     1.0f,   1.0f
 };
 
 unsigned int bezierShape::s_indices[6 * 3 * 3] = {
@@ -69,8 +69,13 @@ bezierShape::bezierShape()
     glGenBuffers(1, &s_VBO);
     glBindBuffer(GL_ARRAY_BUFFER, s_VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(s_vertices), s_vertices, GL_STATIC_DRAW);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+
+    glVertexAttribPointer(1, 1, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(4*sizeof(float)));
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(2, 1, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3*sizeof(float)));
+    glEnableVertexAttribArray(2);
 
     glPatchParameteri(GL_PATCH_VERTICES, 16);
 }
@@ -89,7 +94,5 @@ void bezierShape::render(shader &sh) const
 {
     objectShape::render(sh);
     glBindVertexArray(s_VAO);
-    //glDrawArrays(GL_TRIANGLES, 0, 16);
-    //glDrawElements(GL_TRIANGLES, 18 * 3, GL_UNSIGNED_INT, nullptr);
     glDrawArrays(GL_PATCHES, 0, 16);
 }

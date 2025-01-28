@@ -176,10 +176,29 @@ const char* vertexSBSS = R"(
 #version 460 core
 
 layout (location = 0) in vec3 aPos;
+layout (location = 1) in float u;
+layout (location = 2) in float v;
+
+uniform float time;
 
 void main()
 {
-    gl_Position = vec4(aPos, 1.0);
+    vec3 point = aPos;
+    float waveAmplitudeY = 0.2;
+    float waveFrequencyY = 4.0;
+    float waveSpeedY = 1.0;
+    float displacementY = v * waveAmplitudeY * sin(waveFrequencyY * u + time * waveSpeedY);
+
+    float waveAmplitudeZ = 0.45;
+    float waveFrequencyZ = 6.0;
+    float waveSpeedZ = 4.6;
+    float displacementZ = u * waveAmplitudeZ * sin(waveFrequencyZ * u + time * waveSpeedZ)
+        + 0.2 * u * cos(1.0 * v + time * 3.0);
+
+    //point.x += displacementY;
+    point.z += displacementZ;
+
+    gl_Position = vec4(point, 1.0);
 }
 )";
 
@@ -219,8 +238,6 @@ layout (quads, fractional_odd_spacing, ccw) in;
 uniform mat4 model;           // the model matrix
 uniform mat4 view;            // the view matrix
 uniform mat4 projection;      // the projection matrix
-
-uniform float time;
 
 out vec3 P;
 out vec3 normal;
@@ -284,20 +301,6 @@ void main()
             dPdv += weightV * controlPoint;
         }
     }
-
-    float waveAmplitudeY = 0.2;
-    float waveFrequencyY = 4.0;
-    float waveSpeedY = 1.0;
-    float displacementY = v * waveAmplitudeY * sin(waveFrequencyY * u + time * waveSpeedY);
-
-    float waveAmplitudeZ = 0.45;
-    float waveFrequencyZ = 6.0;
-    float waveSpeedZ = 4.6;
-    float displacementZ = u * waveAmplitudeZ * sin(waveFrequencyZ * u + time * waveSpeedZ)
-        + 0.2 * u * cos(1.0 * v + time * 3.0);
-
-    //point.y += displacementY;
-    point.z += displacementZ;
 
     normal = normalize(cross(dPdu, dPdv));
 	P = (model * vec4(point, 1.0f)).xyz;

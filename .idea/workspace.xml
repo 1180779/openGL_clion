@@ -36,33 +36,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61cce7d8-820a-410f-a971-5d3a7c8be5b2" name="Changes" comment="basing bezier surface with tesselation shader">
-      <change afterPath="$PROJECT_DIR$/source/interfaces/IFollowable.hpp" afterDir="false" />
+    <list default="true" id="61cce7d8-820a-410f-a971-5d3a7c8be5b2" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/imgui.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/openGL_clion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/openGL_clion.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/keyBinds.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/keyBinds.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/camera/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/camera/camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/camera/camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/camera/camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/light/lightManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/light/lightManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/light/lightManager.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/light/lightManager.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/light/lightSpotlight.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/light/lightSpotlight.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/light/lightSpotlightFollowing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/light/lightSpotlightFollowing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/light/lightSpotlightFollowing.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/light/lightSpotlightFollowing.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/models/cubeShape.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/models/cubeShape.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/models/objectList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/models/objectList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/models/objectShape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/models/objectShape.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/objects/models/objectShape.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/models/objectShape.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/objects/models/bezierShape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/models/bezierShape.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/objects/models/bezierShape.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/models/bezierShape.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/objects/sceneManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/sceneManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/objects/shadersC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/objects/shadersC.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/views/cameraView.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/views/cameraView.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/views/sceneView.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/views/sceneView.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/views/uiView.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/views/uiView.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,31 +176,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;CMake Application.openGL_clion.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion/source/interfaces&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "CMake Application.openGL_clion.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/rdkgs/MojePliki/studia/semestr V/grafika/openGL_clion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rdkgs\MojePliki\studia\semestr V\grafika\openGL_clion\source\interfaces" />
@@ -234,11 +218,6 @@
       <method v="2" />
     </configuration>
     <configuration name="GLFW" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openGL_clion" TARGET_NAME="GLFW" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -306,7 +285,10 @@
       <workItem from="1737730390696" duration="4024000" />
       <workItem from="1737734470702" duration="4890000" />
       <workItem from="1737824778192" duration="19347000" />
-      <workItem from="1737887406945" duration="7993000" />
+      <workItem from="1737887406945" duration="8163000" />
+      <workItem from="1737901681612" duration="1463000" />
+      <workItem from="1737974865745" duration="3865000" />
+      <workItem from="1738090361484" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <option name="closed" value="true" />
@@ -476,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737843547090</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1737895565513</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737895565513</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +502,6 @@
     <MESSAGE value="fix to objectShape" />
     <MESSAGE value=" * fix to objectShape&#10; * fix to followingCamera" />
     <MESSAGE value="added spotlight following. need to fix light manager first" />
-    <MESSAGE value="fixes" />
     <MESSAGE value=" * added spotlight following the object (as if part of it)&#10; * fixes" />
     <MESSAGE value="added tesselation shaders to shader class" />
     <MESSAGE value="added some bezier code?" />
@@ -521,7 +510,8 @@
     <MESSAGE value="lit bezier surface" />
     <MESSAGE value="basing bezier surface with tesselation shader" />
     <MESSAGE value="added bezier surface using tesselation shader" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bezier surface using tesselation shader" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

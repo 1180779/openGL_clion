@@ -21,7 +21,7 @@ private:
     static GLuint s_EBO;
     static GLuint s_VAO;
 
-    static float s_vertices[16 * 3];
+    static float s_vertices[16 * 5];
     static unsigned int s_indices[6 * 3 * 3];
 };
 
